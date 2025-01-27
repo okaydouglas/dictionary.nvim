@@ -1,4 +1,4 @@
-# popup-dictionary.nvim
+# dictionary.nvim
 
 A neovim plugin to show word definitions in a floating window.
 

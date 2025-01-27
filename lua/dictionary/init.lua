@@ -70,3 +70,6 @@ return M
 -- TODO
 -- determine _max_win_height programmatically 
 -- set start,end pos programmatically (anchor the floating window at cword not the top of buffer)
+-- use vim.fn.win_getid() and vim.fn.getwininfo( vim.fn.win_getid() ) and vim.fn.line('.') 
+-- to get the size of the current window and determine where the cursor is and open the dictionary in an appropriate place 
+-- also use the coordinates info to determine an appropriate max_size value
