@@ -29,13 +29,28 @@ function M.show_definition()
     local _win_height = #lines
 
     _win_height = (_win_height > _max_win_height) and _max_win_height or _win_height
+    -- ***unpack*** is deprecated, use table indexes
+    -- local lhs, rhs = unpack( vim.api.nvim_win_get_cursor(0) )
+    local cursor = vim.api.nvim_win_get_cursor(0)
+    local lhs, rhs = cursor[1], cursor[2]  -- should be _row, _col not lhs, rhs
+
+
+    local _col = 0
+    if rhs > 110 then
+        _col = -76
+    end
+
+    -- this is a dummy check, but it should see if the max_height + lhs (row) is greater than 1/2 the screen and adjust _row accordingly
+    if lhs > 1000 then
+        lhs = 0
+    end
 
     local opts = {
-        relative= 'editor',
+        relative= 'cursor',
         width= _win_width,
         height= _win_height,
-        col= 3,
-        row= 2,
+        col= _col,
+        row= 1,
         anchor= 'NW',
         style= 'minimal',
         border = 'rounded',

@@ -4,7 +4,7 @@ A neovim plugin to show word definitions in a floating window.
 
 ## Prerequisites
 
-This plugin is a wrapper for the linux ```dict``` command and assumes a working Dictionary Server Protocol client is installed.
+This plugin is a wrapper for the Linux ```dict``` command and assumes a working Dictionary Server Protocol client is installed.
 
 ## Installation
 
