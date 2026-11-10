@@ -2,11 +2,7 @@
 
 A neovim plugin to show word definitions in a floating window.
 
-![UI Demo](dictionary--sample.mp4)
-
-<video src="https://github.com/user-attachments/assets/2c9706cf-408b-4911-8ab6-d89683d593b8
-" autoplay loop muted playsinline style="max-width: 100%;">
-</video>
+![Demo](dictionary.gif)<img width="800" height="463" alt="dictionary" src="https://github.com/user-attachments/assets/fca5f509-4da0-4ee6-ac25-6b8bd9bbfc2b" />
 
 
 ## Prerequisites
