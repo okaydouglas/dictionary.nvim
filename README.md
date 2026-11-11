@@ -1,9 +1,8 @@
 # dictionary.nvim
 
-A neovim plugin to display the definition of the word under the cursor in a floating window. Supports using cursor movement commands to navigate the definition text as well as recursively looking up words in the definition window.  
+A Neovim plugin that displays the definition of the word under the cursor in a floating window. Navigate definitions using normal cursor movement commands, and look up additional words directly from the definition window.
 
 ![Demo](dictionary.gif)<img width="800" height="463" alt="dictionary" src="https://github.com/user-attachments/assets/fca5f509-4da0-4ee6-ac25-6b8bd9bbfc2b" />
-
 
 ## Prerequisites
 
